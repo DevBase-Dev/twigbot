@@ -4,6 +4,25 @@ from difflib import get_close_matches
 import json
 import os
 import random
+import pymongo
+from pymongo import MongoClient
+import dotenv
+from dotenv import load_dotenv
+##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
+##Make sure to have a mongodb server there free until 500mb
+
+
+##load_dotenv()
+##MONGODB_URI = os.environ['mongodb+srv://VincentRPS:dece2008@modmail.ydetk.mongodb.net']
+##COLLECTION = os.getenv("COLLECTION")
+##DB_NAME = os.getenv("Modmail")
+
+##COG LOADER
+client=commands.Bot(command_prefix="h!")
+
+for filename in os.listdir('./cogs'):
+    if filename.endswith('.py'):
+        client.load_extension('cods.{filename{:-3}}')
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
@@ -199,5 +218,5 @@ async def beg(ctx):
 
 
 
-client.run("ODg5ODM3NTc1OTQ5NDAyMTUy.YUnD0g.vTtbPfie0SYNBp_38ktqFmKT0Io")
+client.run("ODg5ODM3NTc1OTQ5NDAyMTUy.YUnD0g.xbVXCKgv04L9dk_yfsO3HDprR2k")
 
