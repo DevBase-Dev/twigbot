@@ -218,5 +218,5 @@ async def beg(ctx):
 
 
 
-client.run("ODg5ODM3NTc1OTQ5NDAyMTUy.YUnD0g.xbVXCKgv04L9dk_yfsO3HDprR2k")
+client.run("TOKEN")
 
