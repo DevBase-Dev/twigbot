@@ -91,6 +91,10 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.BadArgument):
       return
     print(error)
+	
+@client.command()
+async def ping(ctx):
+	await ctx.send(f'Pong! | Speed: **{round(client.latency * 1000)}**ms')
 
 ##Economy Start
 ##Remember To Add Send Money Stores And Items
