@@ -1,11 +1,13 @@
 import nextcord
 from nextcord.ext import commands, tasks
 from difflib import get_close_matches
+from dotenv import load_dotenv
+import os
 
-PREFIX = 'h!'
+load_dotenv()
 
 intents=nextcord.Intents.all()
-client = commands.Bot(command_prefix = PREFIX,intents=intents)
+client = commands.Bot(command_prefix = os.getenv('PREFIX'),intents=intents)
 
 @client.event
 async def on_ready():
