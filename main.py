@@ -26,7 +26,7 @@ for filename in os.listdir('./cogs'):
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
-os.chdir(r"C:\Users\ADMIN\Desktop\helper-bot-main")
+os.chdir(r"C:\\Users\ADMIN\Desktop\\helper-bot-main")
 
 ##When Will These Be Custom For Every Server? Or Are They Already?(VincentRPS)
 PREFIX = 'h!'
