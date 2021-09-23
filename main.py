@@ -19,8 +19,8 @@ DB_NAME = os.getenv("DBNAME")
 client=commands.Bot(command_prefix="h!")
 
 for filename in os.listdir('./cogs'):
-    if filename.endswith('.py'):
-        client.load_extension('cods.{filename{:-3}}')
+  if filename.endswith('.py'):
+    client.load_extension('cods.{filename{:-3}}')
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
@@ -33,8 +33,8 @@ client = commands.Bot(command_prefix = PREFIX,intents=intents)
 
 @client.event
 async def on_ready():
-	print('Bot is Online')
-	
+  print('Bot is Online')
+  
 @client.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
@@ -88,10 +88,10 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.BadArgument):
       return
     print(error)
-	
+  
 @client.command()
 async def ping(ctx):
-	await ctx.send(f'Pong! | Speed: **{round(client.latency * 1000)}**ms')
+  await ctx.send(f'Pong! | Speed: **{round(client.latency * 1000)}**ms')
 
 
 
