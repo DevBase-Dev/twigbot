@@ -9,6 +9,7 @@ from pymongo import MongoClient
 ##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
 ##Make sure to have a mongodb server there free until 500mb
 
+TOKEN = os.environ['TOKEN']
 
 MONGODB_URI = os.environ['MONGOURI']
 COLLECTION = os.getenv("COLLECTION")
@@ -23,7 +24,6 @@ for filename in os.listdir('./cogs'):
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
-os.chdir(r"C:\\Users\ADMIN\Desktop\\helper-bot-main")
 
 ##When Will These Be Custom For Every Server? Or Are They Already?(VincentRPS)
 PREFIX = 'h!'
