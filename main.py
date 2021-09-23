@@ -226,5 +226,5 @@ load_dotenv()
 
 TOKEN = os.getenv('TOKEN')
 
-client.run("TOKEN")
+client.run(TOKEN)
 
