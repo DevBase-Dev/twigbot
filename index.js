@@ -1,5 +1,11 @@
-const {Collection, Client, Discord, Message} = require('discord.js')
+const {Collection, Client, Discord, Message, Intents, } = require('discord.js');
 const fs = require('fs')
+const client = new Client({
+    intents: 
+    [
+        Intents.FLAGS.ALL
+    ]
+})
 const bot = new Client({
     disableEveryone: true
 })
@@ -7,6 +13,7 @@ const config = require('./config.json')
 const command = require('./handlers/command')
 const prefix = config.prefix
 const token = config.token
+const mongoose = config.mongoose
 bot.commands = new Collection();
 bot,aliases = new Collection();
 bot.categories = fs.readdirsync("./commands/");

@@ -11,6 +11,11 @@
   "license": "CC01",
   "dependencies": {
     "ascii-table": "^0.0.9",
-    "discord.js": "^13.1.0"
+    "discord.js": "^13.1.0",
+    "mongoose": "^6.0.7",
+    "ms": "^3.0.0-canary.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
