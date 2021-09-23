@@ -1,4 +1,4 @@
-from nextcord
+import nextcord
 from nextcord.ext import commands
 import contextlib
 import io
