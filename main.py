@@ -6,13 +6,10 @@ import os
 import random
 import pymongo
 from pymongo import MongoClient
-import dotenv
-from dotenv import load_dotenv
 ##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
 ##Make sure to have a mongodb server there free until 500mb
 
 
-load_dotenv()
 MONGODB_URI = os.environ['MONGOURI']
 COLLECTION = os.getenv("COLLECTION")
 DB_NAME = os.getenv("DBNAME")
@@ -221,10 +218,6 @@ async def beg(ctx):
 ##Economy End
 
 
-
-load_dotenv()
-
-TOKEN = os.getenv('TOKEN')
 
 client.run(TOKEN)
 
