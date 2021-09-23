@@ -11,16 +11,16 @@ from pymongo import MongoClient
 
 TOKEN = os.environ['TOKEN']
 
-MONGODB_URI = os.environ['MONGOURI']
-COLLECTION = os.getenv("COLLECTION")
-DB_NAME = os.getenv("DBNAME")
+#MONGODB_URI = os.environ['MONGOURI']
+#COLLECTION = os.getenv("COLLECTION")
+#DB_NAME = os.getenv("DBNAME")
 
 ##COG LOADER
 client=commands.Bot(command_prefix="h!")
 
 for filename in os.listdir('./cogs'):
   if filename.endswith('.py'):
-    client.load_extension('cods.{filename{:-3}}')
+    client.load_extension('cogs.{filename{:-3}}')
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
