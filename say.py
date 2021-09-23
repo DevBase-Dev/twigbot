@@ -3,7 +3,7 @@ from nextcord.ext import commands
 
 class say(commands.Cog):
     def __init__(self, client):
-    self.client = client
+      self.client = client
     
     
     @commands.command()
