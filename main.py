@@ -224,7 +224,7 @@ async def beg(ctx):
 
 load_dotenv()
 
-GCP_PROJECT_ID = os.getenv('TOKEN')
+TOKEN = os.getenv('TOKEN')
 
 client.run("TOKEN")
 
