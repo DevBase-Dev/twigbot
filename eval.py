@@ -15,7 +15,7 @@ class eval(commands.Cog):
           with contextlib.redirect_stdout(str_obj):
               exec(code)
       except Exception as e:
-          em=discord.Embed(title="Output :",description=f"```{e.__class__.__name__}: {e}```")
+          em=nextcord.Embed(title="Output :",description=f"```{e.__class__.__name__}: {e}```")
           return await ctx.send(embed=em)
       e=nextcord.Embed(title="Output :",description=f'``{str_obj.getvalue()}``')
       await ctx.send(embed=e)
