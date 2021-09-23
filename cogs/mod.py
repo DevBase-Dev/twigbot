@@ -27,7 +27,7 @@ class mod(commands.Cog):
 
     await member.kick(reason=reason)
 
-    embed = discord.Embed(
+    embed = nextcord.Embed(
       description = f':white_check_mark: Successfully kicked `{member}` with ID: `{punishment_id}`',
       color = discord.Color.from_rgb(250, 225, 225)
     )
@@ -55,7 +55,7 @@ class mod(commands.Cog):
 
     await member.ban(reason=reason)
 
-    embed = discord.Embed(
+    embed = nextcord.Embed(
       description = f':white_check_mark: Successfully kicked `{member}` with ID: `{punishment_id}`',
       color = discord.Color.from_rgb(250, 225, 225)
     )
