@@ -93,14 +93,6 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
 	await ctx.send(f'Pong! | Speed: **{round(client.latency * 1000)}**ms')
 
-##Economy Start
-##Remember To Add Send Money Stores And Items
-
-
-
-
-##Economy End
-
 
 
 client.run(TOKEN)
