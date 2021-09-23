@@ -18,9 +18,6 @@ TOKEN = os.environ['TOKEN']
 ##COG LOADER
 client=commands.Bot(command_prefix="h!")
 
-for filename in os.listdir('./cogs'):
-  if filename.endswith('.py'):
-    client.load_extension('cogs.{filename{:-3}}')
 
 ##Change For Where Bot Is Actually Hosted
 ##For Economy
@@ -35,6 +32,10 @@ client = commands.Bot(command_prefix = PREFIX,intents=intents)
 async def on_ready():
   print('Bot is Online')
   
+for filename in os.listdir('./cogs'):
+  if filename.endswith('.py'):
+    client.load_extension('cogs.{filename{:-3}}')
+
 @client.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
