@@ -11,9 +11,9 @@ from pymongo import MongoClient
 
 TOKEN = os.environ['TOKEN']
 
-MONGODB_URI = os.environ['MONGOURI']
-COLLECTION = os.getenv("COLLECTION")
-DB_NAME = os.getenv("DBNAME")
+#MONGODB_URI = os.environ['MONGOURI']
+#COLLECTION = os.getenv("COLLECTION")
+#DB_NAME = os.getenv("DBNAME")
 
 ##COG LOADER
 client=commands.Bot(command_prefix="h!")
