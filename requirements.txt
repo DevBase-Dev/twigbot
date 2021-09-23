@@ -1,0 +1,9 @@
+All PIP Installs Needed
+
+Currently As Needed
+
+PIP INSTALL NEXTCORD
+PIP INSTALL PYTHON-DOTENV
+PIP INSTALL PYMONGO
+PIP INSTALL YouTube_DL (Being Deprecated For Lavalink)
+PIP INSTALL 
