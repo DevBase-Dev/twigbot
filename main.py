@@ -12,10 +12,10 @@ from dotenv import load_dotenv
 ##Make sure to have a mongodb server there free until 500mb
 
 
-##load_dotenv()
-##MONGODB_URI = os.environ['mongodb+srv://VincentRPS:dece2008@modmail.ydetk.mongodb.net']
-##COLLECTION = os.getenv("COLLECTION")
-##DB_NAME = os.getenv("Modmail")
+load_dotenv()
+MONGODB_URI = os.environ['MONGOURI']
+COLLECTION = os.getenv("COLLECTION")
+DB_NAME = os.getenv("DBNAME")
 
 ##COG LOADER
 client=commands.Bot(command_prefix="h!")
