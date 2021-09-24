@@ -8,6 +8,7 @@ import pymongo
 from pymongo import MongoClient
 import aiohttp
 import discord
+from discord.ext import commands
 ##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
 ##Make sure to have a mongodb server there free until 500mb
 
