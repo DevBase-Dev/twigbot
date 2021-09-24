@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/40/32/oGxper.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 1cm;
+  }
+  
+  h1 {
+    font-size: 70px;
+    font-family: "Courier New";
+    color: #7289da;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p {
+    color: white;
+    position: relative;
+    top: 6cm;
+    left: 450px;
+    font-size: 30px;
+  }
+  
+  .btn {
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    outline: 0;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    outline: 0;
+  }
+  
+  .btn2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
