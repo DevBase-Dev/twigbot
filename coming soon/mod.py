@@ -4,7 +4,7 @@ import string, random
 
 class mod(commands.Cog):
     def __init__(self, client):
-        self.client = client
+      self.client = client
 
     @commands.commmand()
     async def kick(self,ctx,member:commands.MemberConverter, *, reason = None):
