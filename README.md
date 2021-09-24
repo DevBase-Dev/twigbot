@@ -1,3 +1,0 @@
-# twigbot
-
-Rewriting Soon Eris Will Be Happening Soon...
