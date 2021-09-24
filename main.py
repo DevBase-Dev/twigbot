@@ -6,6 +6,8 @@ import os
 import random
 import pymongo
 from pymongo import MongoClient
+import aiohttp
+import discord
 ##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
 ##Make sure to have a mongodb server there free until 500mb
 
@@ -94,7 +96,16 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
   await ctx.send(f'Pong! | Speed: **{round(client.latency * 1000)}**ms')
 
+@client.command()
+async def meme(ctx):
+    async with aiohttp.ClientSession() as cs:
+        async with cs.get('https://www.reddit.com/r/memes.json') as r:
+            memes = await r.json()
+            embed = discord.Embed(color=discord.Color.blue())
+            embed.set_image(url=memes['data']['children'][random.randint(
+                0, 25)]['data']['url'])
+            embed.set_footer()
+            await ctx.send(embed=embed)
 
 
 client.run(TOKEN)
-
