@@ -12,7 +12,7 @@ from discord.ext import commands
 ##mongodb, PIP INSTALL PYMONGO, AND PIP INSTALL Python-DOTENV
 ##Make sure to have a mongodb server there free until 500mb
 
-##TOKEN = os.environ['TOKEN']
+TOKEN = os.environ['TOKEN']
 
 #MONGODB_URI = os.environ['MONGOURI']
 #COLLECTION = os.getenv("COLLECTION")
