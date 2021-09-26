@@ -21,4 +21,6 @@ Why? It's Better For Smaller Bots And It Has More Documentation, We Will Move Ba
 No, This Is Just A Eris Version By Me And Noone Else So Everyone Else Will Keep Updating The Nextcord Version Including Me
 
 # Examples
-Coming SOON
+Example Of What The Ping Command Will Look Like
+![title](DUtilsImages/V9w8AJMS.png)
+More Coming SOON
