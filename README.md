@@ -1,15 +1,15 @@
 # Discord Utilities
 The Eris Version Of Twig Is Called Discord Utilities For All Your Utility Needs 
 # Coming Soon
-Custom Embeds
-Dashboard 
-Slash Commands
-Economy Commands
-Anti-Nsfw
-Anti-Raid
-AutoMod
-Mod Commands 
-Soft Mod Commands
+Custom Embeds,
+Dashboard, 
+Slash Commands,
+Economy Commands,
+Anti-Nsfw,
+Anti-Raid,
+AutoMod,
+Mod Commands, 
+Soft Mod Commands,
 More!
 
 # Why Eris?
