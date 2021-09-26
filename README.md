@@ -10,7 +10,7 @@ Say,
 
 # Coming Soon
 EconomyV2,
-Music Using Discord Utils,
+Music Using Lavalink,
 Games,
 Welcome,
 Level System With Banner
