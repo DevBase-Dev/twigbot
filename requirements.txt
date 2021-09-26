@@ -75,18 +75,16 @@ pycparser==2.20
 pyflakes==2.1.1
 pygame==2.0.1
 pylev==1.4.0
-pymongo @ file:///home/runner/.cache/pypoetry/artifacts/1e/68/56/bf2d05d81434474803e09d6e4e34201dd98298a6a17ccf353448c3a88b/pymongo-3.12.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 PyOpenGL==3.1.5
 pyparsing==2.4.7
 pyquil==1.9.0
 python-dateutil==2.8.2
-python-dotenv @ file:///home/runner/.cache/pypoetry/artifacts/77/4d/7f/4caf9eb43e9f70ce775535038be296b37b62fdfc0e7435d3af99dd3a3c/python_dotenv-0.19.0-py2.py3-none-any.whl
 python-jsonrpc-server==0.3.2
 python-language-server==0.31.10
 pyxel @ git+https://github.com/amasad/pyxel@8bcc2266b2fbb65f72ad686952de3838971c136e
 referenceqvm==0.3
 regex==2021.8.28
-replit==3.2.4
 requests==2.26.0
 requests-oauthlib==1.3.0
 requests-toolbelt==0.9.1
@@ -117,5 +115,4 @@ wrapt==1.12.1
 yapf==0.31.0
 yarg==0.1.9
 yarl==1.6.3
-youtube-dl @ file:///home/runner/.cache/pypoetry/artifacts/5c/6d/a6/54b25d81be75c100a11a9d929b11f83567202ee18af45002f72e91069c/youtube_dl-2021.6.6-py2.py3-none-any.whl
 zipp==3.4.1
