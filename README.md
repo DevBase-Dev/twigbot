@@ -19,3 +19,6 @@ Why? It's Better For Smaller Bots And It Has More Documentation, We Will Move Ba
 # Are You Abandaning The Nextcord Version?
 
 No, This Is Just A Eris Version By Me And Noone Else So Everyone Else Will Keep Updating The Nextcord Version Including Me
+
+# Examples
+Coming SOON
