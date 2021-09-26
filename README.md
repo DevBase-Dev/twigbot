@@ -13,8 +13,8 @@ Mod Commands,
 Soft Mod Commands,
 More!
 
-# Why Eris?
-It's Better And More Powerful Also It's More Efficient Then Discord.js So I Chose Eris
+# Moving Back To Discord.js
+Why? It's Better For Smaller Bots And It Has More Documentation, We Will Move Back To Eris When It's Effecient To
 
 # Are You Abandaning The Nextcord Version?
 
