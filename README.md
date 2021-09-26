@@ -1,4 +1,5 @@
 ![title](DUtilsImages/DiscordUtils.svg)
+<img src="DUtilsImages/DiscordUtils.svg">
 # Discord Utilities
 The Eris Version Of Twig Is Called Discord Utilities For All Your Utility Needs 
 # Coming Soon
