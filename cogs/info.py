@@ -26,7 +26,7 @@ class Info(commands.Cog):
     embed.add_field(name="Nextcord Version", value=nextcordVersion)
     embed.add_field(name="Total Guilds:", value=serverCount)
     embed.add_field(name="Total Users:", value=memberCount)
-    embed.add_field(name="Bot Developers:", value="<@740637592713691217>")
+    embed.add_field(name="Bot Developers:", value="<@740637592713691217> | <@760325335777804340> | <@751405982562648146> | <@697323031919591454> | <@744715959817994371>")
     embed.set_footer(text = f"[Support Server](https://nextcord.gg/ZsZQ4SHsqs)")
 
     embed.set_footer(text=f"Carpe Noctem | {self.client.user.name}")
