@@ -22,3 +22,9 @@ You Can Check Out Our [Website](https://devbase-dev.github.io/twigbot) As We Wor
 # Examples
 
 Coming SOON :)
+
+# Important Links
+
+[Website](https://devbase-dev.github.io/twigbot)
+
+[Discord Server](https://discord.gg/ATxcQwTqxA)
