@@ -56,7 +56,7 @@ async def on_message(message):
     afk = json.load(f)
     
   for x in message.mentions:
-    if afk[f'{x.id}']['AFK'] = 'True':
+    if afk[f'{x.id}']['AFK'] == 'True':
       if message.author.bot:
         return
       em = nextcord.Embed(title='This User is afk!',description=f'You can\'t Ping {x} as he is AFK!',color=0x00FF00)
@@ -65,7 +65,7 @@ async def on_message(message):
   if not message.author.bot:
     await update_data(afk, message.author)
     
-    if afk[f'{message.author.id}']['AFK'] = 'True':
+    if afk[f'{message.author.id}']['AFK'] == 'True':
       NonEmbed = nextcord.Embed(description='I Have removed your AFK status!', color=0x00FF00)
       NonEmbed.set_author(name='You are no longer AFK!', icon_url=message.author.avatar.url)
       await message.channel.send(embed=NonEmbed)
@@ -157,7 +157,7 @@ async def afk(ctx, reason=None):
     afk=json.load(f)
     
   afk[f'{ctx.author.id}']['AFK'] = 'True'
-  em = nextcord.Embed(,description='I Have set your status to AFK!', timestamp=ctx.message.created_at, color=0x00FF00)
+  em = nextcord.Embed(title="AFK",description='I Have set your status to AFK!', timestamp=ctx.message.created_at, color=0x00FF00)
   em.set_author(name='You are now AFK!',icon_url=ctx.author.avatar.url)
   em.add_field(name='Reason:', value=f'> {reason}')
   await ctx.send(embed=em)
