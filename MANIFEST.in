@@ -1,0 +1,3 @@
+include requirements.txt
+include lib/bin/*.dll
+include lib/py.typed
