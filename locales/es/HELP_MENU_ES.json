@@ -1,0 +1,9 @@
+{
+    "HELP_MENU_ES": {
+        "HELP_TITLE": "The TWIG Help Menu",
+        "HELP_DESC": "Features We Have: Moderation, Fun Commands And More Coming Soon!",
+        "HELP_FOOTER": "Twig 2.0",
+        "HELP_BUTTON1": "CLOSE",
+        "HELP_SELECT_MODERATION": "Moderation Features"
+    }
+}

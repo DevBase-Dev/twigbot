@@ -1,0 +1,8 @@
+python:
+https://www.youtube.com/watch?v=_uQrJ0TkZlc
+javascript:
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+html:
+https://www.youtube.com/watch?v=qz0aGYrrlhU
+discord.py:
+https://www.youtube.com/watch?v=F1HbEOp-jdg&list=PLYeOw6sTSy6ZGyygcbta7GcpI8a5-Cooc
