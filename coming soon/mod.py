@@ -2,6 +2,19 @@ import nextcord
 from nextcord.ext import commands
 import string, random
 
+def getCaseNumber(): 
+    numbers = []
+    letters = []
+
+    for i in range(6):
+        numbers.append(str(random.randint(0, 9)))
+        letters.append(random.choice(string.ascii_letters))
+
+    return str(
+      letters[0] + numbers[0] + letters[1] + numbers[1] + letters[2] + numbers[2] + 
+      letters[3] + numbers[3] + letters[4] + numbers[4] + letters[5] + numbers[5]
+    )
+
 class mod(commands.Cog):
     def __init__(self, client):
       self.client = client
@@ -11,25 +24,13 @@ class mod(commands.Cog):
         if reason == None:
           reason = 'No reason provided'
 
-        number1 = random.randint(0, 9)
-        number2 = random.randint(0, 9)
-        number3 = random.randint(0, 9)
-        number4 = random.randint(0, 9)
-        number5 = random.randint(0, 9)
-        
-        letter1 = random.choice(string.ascii_letters)
-        letter2 = random.choice(string.ascii_letters)
-        letter3 = random.choice(string.ascii_letters)
-        letter4 = random.choice(string.ascii_letters)
-        letter5 = random.choice(string.ascii_letters)
-
-        punishment_id = f'{letter1}{number1}{letter2}{number2}{letter3}{number3}{letter4}{number4}{letter5}{number5}'
+        punishment_id = getCaseNumber()
 
         await member.kick(reason=reason)
 
         embed = nextcord.Embed(
         description = f':white_check_mark: Successfully kicked `{member}` with ID: `{punishment_id}`',
-        color = nextcord      .Color.from_rgb(250, 225, 225)
+        color = nextcord.Color.from_rgb(250, 225, 225)
         )
 
         await ctx.send(embed=embed)
@@ -39,19 +40,7 @@ class mod(commands.Cog):
             if reason == None:
                 reason = 'No reason provided'
 
-            number1 = random.randint(0, 9)
-            number2 = random.randint(0, 9)
-            number3 = random.randint(0, 9)
-            number4 = random.randint(0, 9)
-            number5 = random.randint(0, 9)
-            
-            letter1 = random.choice(string.ascii_letters)
-            letter2 = random.choice(string.ascii_letters)
-            letter3 = random.choice(string.ascii_letters)
-            letter4 = random.choice(string.ascii_letters)
-            letter5 = random.choice(string.ascii_letters)
-
-            punishment_id = f'{letter1}{number1}{letter2}{number2}{letter3}{number3}{letter4}{number4}{letter5}{number5}'
+            punishment_id = getCaseNumber()
 
             await member.ban(reason=reason)
 
