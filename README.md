@@ -1,4 +1,4 @@
-![title](picture/Twigaween.jpg)
+![title](picture/Twigmas.png)
 # Twig
 The Main Pythonic Version Of Twig Using Nextcord
 # Features
